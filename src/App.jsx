@@ -44,8 +44,8 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Cryptoverse <br />
-            All rights reserved
+            67CA <br />
+           this is check sites for APIs
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
