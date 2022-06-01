@@ -48,7 +48,7 @@ const App = () => {
            this is check sites for APIs
           </Typography.Title>
           <Space>
-            <Link to="/">Home</Link>
+            <Link to="/homepage">Home</Link>
             <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
           </Space>
