@@ -21,7 +21,8 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Switch>
-              <Route exact path="cryptoapp/">
+            
+              <Route exact path="/">
                 <Homepage />
               </Route>
               <Route exact path="/cryptocurrencies">
@@ -45,7 +46,7 @@ const App = () => {
             style={{ color: "white", textAlign: "center" }}
           >
             67CA <br />
-           this is check sites for APIs
+            this is check sites for APIs
           </Typography.Title>
           <Space>
             <Link to="/homepage">Home</Link>
