@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="logo-container">
         <Typography.Title level={2} className="logo">
-          <Link to="/">
+          <Link to="/cryptoapp">
             <Avatar src={icon}  size={{
       xs: 24,
       sm: 32,
@@ -56,7 +56,7 @@ const Navbar = () => {
       {activeMenu && (
         <Menu theme="dark">
           <Menu.Item icon={<HomeOutlined />}>
-            <Link to="/cryptoapp">Home</Link>
+            <Link to="/cryptoapp/">Home</Link>
           </Menu.Item>
           <Menu.Item icon={<FundOutlined />}>
             <Link to="/cryptocurrencies">Cryptocurrencies</Link>
